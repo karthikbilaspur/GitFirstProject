@@ -1,0 +1,7 @@
+Experienced in both front end and backend. 
+Python and PHP are my prefereed languages 
+ExpressJs, AngularJs, NextJs are my preferred Javascript Framworks 
+React.js, D3.js and Loader.js are my goto javascript Libraries. 
+Flask and Django are my python framework. Laravel is my goto framework when doing PHP projects 
+Good at Website Template design with HTML, CSS and JS
+MongoDB, SQL, POSTESQL are my prefered Databases 
