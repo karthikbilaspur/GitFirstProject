@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+	<link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
+	<link href= 
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+		rel="stylesheet"> 
+	<link rel="stylesheet" href="styles.css"> 
+</head> 
+
+<body> 
+	<div class="container"> 
+		<h1 class="app-title"> 
+			GeeksforGeeks Random Color Generator 
+		</h1> 
+		
+		<div id="colorDisplay"
+			class="color-card animate__animated animate__fadeIn"> 
+			<p id="colorHex">#FFFFFF</p> 
+			<p id="colorRgb">RGB(255, 255, 255)</p> 
+		</div> 
+
+		<div class="buttons"> 
+			<button onclick="genColorFn()"> 
+				<i class="fas fa-random"></i> Generate Color 
+			</button> 
+			<button onclick="cpyFn('colorHex')"> 
+				<i class="far fa-copy"></i> Copy HEX 
+			</button> 
+			<button onclick="cpyFn('colorRgb')"> 
+				<i class="far fa-copy"></i> Copy RGB 
+			</button> 
+			<button onclick="darkFn()"> 
+				<i class="fas fa-adjust"></i> Dark Mode 
+			</button> 
+		</div> 
+		<p id="copyMessage" class="animate__animated"></p> 
+	</div> 
+
+	<script src="app.js"></script> 
+	
+	<script> 
+		document.addEventListener('DOMContentLoaded', genColorFn); 
+	</script> 
+</body> 
+
+</html>
